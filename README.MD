@@ -29,7 +29,10 @@ To get started with this project, you will need to have the following installed 
     * DB_URL - jdbc:mysql://localhost:3306/name_of_your_database
     * DB_USERNAME - your username in MySqlWorkbench
     * DB_PASSWORD - your password in MySqlWorkbench
+* For frontend:
+    * Go to the frontend directory and run command `npm install react-scripts --save-dev`
+    * Run command `npm start` to start react
 
 
 #### Backend will be available at http://localhost:8080
-#### Frontend will be available at http://localhost:3000 after writing `npm start` on your terminal in frontend folder
+#### Frontend will be available at http://localhost:3000

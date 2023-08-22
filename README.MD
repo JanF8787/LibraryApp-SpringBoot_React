@@ -11,7 +11,6 @@ To get started with this project, you will need to have the following installed 
 
 * Java
 * Spring Boot 3.1.2
-* BCrypt
 * MySQL, Hibernate, JPA
 * Gradle - Groovy
 

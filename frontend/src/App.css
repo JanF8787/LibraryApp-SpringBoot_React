@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:wght@100&display=swap');
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 0;
+  margin-top: 20px;
+  width: 1200px;
+  height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px 7px rgba(0,0,0,0.12);
+}
+
+.app-bar {
+  width: 98%;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid rgb(172, 64, 37);
+  box-shadow: 0px 2px 10px 7px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-bar {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app-bar h3 {
+  color:rgb(172, 64, 37);
+  letter-spacing: 2px;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.book-bar, .reader-bar, .loan-bar {
+  margin: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.reader-bar:hover {
+  color: rgb(172, 64, 37);
+}
+
+.book-bar:hover {
+  color: rgb(172, 64, 37);
+}
+
+.loan-bar:hover {
+  color: rgb(172, 64, 37);
+}
+
+.library {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.form-div {
+  margin-top: 70px;
+  border: 1px solid rgb(172, 64, 37);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 7px rgba(0,0,0,0.12);
+}
+
+.loan-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.loan-div select {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-div {
+  width: 700px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.table-div h3 {
+  position: absolute;
+  top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+table {
+  margin-top: 70px;
+  width: 60vw;
+  box-shadow: 0px 2px 18px 7px rgba(0,0,0,0.12);
+}
